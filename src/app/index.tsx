@@ -154,7 +154,7 @@ const App: FC = () => {
                 }
               />
               <Route
-                path="/crowdfunding"
+                path="/IndaHood/crowdfunding"
                 element={
                   <MyRouter leftButton="navBar" title={t(common.crowdfunding)} rightButton="search">
                     <Crowdfunding />
