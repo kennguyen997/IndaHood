@@ -8,10 +8,11 @@ import store from './app/redux/store';
 import { BrowserRouter } from 'react-router-dom';
 import NavigateSetter from 'navigateSetter';
 import './app/trans/i18n';
+import { basename } from 'app/utils/defualtValue';
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename="/IndaHood">
+    <BrowserRouter basename={basename}>
       <NavigateSetter />
       <App />
     </BrowserRouter>

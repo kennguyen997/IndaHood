@@ -15,6 +15,7 @@ import DrawerHeader from './drawerHeader';
 import SearchButtonMobile from './searchButtonForMobile';
 import useWindowDimensions from 'components/GetWidthHeightWindow/useWindowDimensions';
 import ListNavLink from './listNavLink';
+import { basename } from 'app/utils/defualtValue';
 export interface PropsHeader {
   unNavBar?: boolean;
   //for reponsive
@@ -106,7 +107,7 @@ const Header: FC<Props> = ({
             ></Button>
             <div className="logo">
               <Link to={'/home'}>
-                <img alt="logo" src={`${window.location.origin}/Terafty_Logo.png`} />
+                <img alt="logo" src={`${window.location.origin}${basename}/Terafty_Logo.png`} />
               </Link>
             </div>
           </>
