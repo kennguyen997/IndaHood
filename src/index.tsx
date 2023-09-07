@@ -11,7 +11,7 @@ import './app/trans/i18n';
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename="/IndaHood">
       <NavigateSetter />
       <App />
     </BrowserRouter>
