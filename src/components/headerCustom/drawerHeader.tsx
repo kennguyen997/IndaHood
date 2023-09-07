@@ -42,7 +42,7 @@ const DrawerHeader: FC<Props> = ({ showDrawer, setShowDrawer }) => {
         <NavLinkDrawer to={'/'} className="nav_main">
           {t(common.home)}
         </NavLinkDrawer>
-        <NavLinkDrawer to={'/crowdfunding'} className="nav_main">
+        <NavLinkDrawer to={'IndaHood/crowdfunding'} className="nav_main">
           {t(common.crowdfunding)}
         </NavLinkDrawer>
         <NavLinkDrawer to={'/streaming'} className="nav_main">

@@ -200,9 +200,9 @@ const App: FC = () => {
               <Route
                 path="*"
                 element={
-                  <UnRequireAuth>
-                    <Main />
-                  </UnRequireAuth>
+                  <MyRouter leftButton="navBar" rightButton="search">
+                    <Home />
+                  </MyRouter>
                 }
               />
             </Routes>

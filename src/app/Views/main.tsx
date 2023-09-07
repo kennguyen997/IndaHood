@@ -24,7 +24,7 @@ const Main: FC = () => {
       {/* <div className="logoBig">Terafty</div> */}
       <img alt="logo" className="logoBig" src={`${window.location.origin}/Terafty_Logo.png`} />
       <div className="subtit">{t(common.main_subtit)}</div>
-      <div className="introduce">{t(common.main_introduce)}</div>
+      <div className="introduce">{t(common.main_introduce)}123</div>
       <div className="font_main">
         <Button
           type="primary"
@@ -36,7 +36,7 @@ const Main: FC = () => {
         <Button
           style={{ marginTop: 10 }}
           className="button_ant_ct big_ant w-100"
-          onClick={() => navigate('/home')}
+          onClick={() => navigate('/')}
         >
           {t(common.skip)}
         </Button>
