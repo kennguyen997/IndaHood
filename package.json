@@ -2,6 +2,7 @@
   "name": "terafly",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://https://kennguyen997.github.io/IndaHood",
   "engines": {
     "node": ">=16.14.0 <17.0.0"
   },
